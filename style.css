@@ -1,0 +1,618 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DMSans;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url(DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+}
+
+.img{
+  margin-left: 4%;
+  margin-top: 0.9%;
+}
+
+.search{
+  margin-left: 73%;
+  scale:1.3;
+  margin-top:-1.6%;
+  position: absolute;
+}
+
+.nav{
+  margin-left: 19%;
+  margin-top: -3%;
+  width:40%;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+  margin-left: 1%;
+}
+ 
+.global{
+  position: absolute;
+  margin-left: 77%;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  margin-top: -1.8%;
+}
+
+.contact{
+  position: absolute;
+  margin-left: 85%;
+  text-decoration: none;
+  color:#9E9FA3;
+  font-size: 20px;
+  margin-top: -1.8%;
+}
+
+.img-tata{
+  margin-left: 94%;
+  margin-top: -2.9%;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tmp{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  
+}
+
+.hero{
+  background-color: white;
+  width:auto ;
+  height: 100%;
+  z-index: 1;
+}
+
+.what-new{
+  position: absolute;
+  font-size: 45px;
+  font-family: DMSans;
+  font-weight: 300;
+  color: black;
+  margin-left: 4.5%;
+  margin-top:4.5%;
+}
+
+.img1{
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:430px;
+  height:240px;
+}
+
+.title1{
+  position: absolute;
+  font-family: DMSans;
+  font-weight: 300;
+  font-size: 45px;
+  margin-top: 31%;
+  margin-left: 4%;
+  width:30%;
+
+}
+
+.info{
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 41%;
+  margin-left: 4%;
+  width:30%;
+}
+
+.read-text{
+  color: black;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 52%;
+  margin-left: 4%;
+  width:30%;
+}
+
+.cards{
+  margin-left: 1%;
+}
+
+.cards:nth-child(2){
+  margin-left: 33%;
+}
+
+.cards:nth-child(3){
+  margin-left: 65%;
+}
+
+.hero2{
+  background-color: black;
+  width: 100%;
+  height: 80%;
+  
+}
+
+.edge-text{
+  color: white;
+  font-size: 45px;
+  font-weight: 300;
+  margin-left: 5%;
+
+}
+
+.cards2{
+  position: relative;
+  width:28%;
+  height:430px;
+  background-color: #343738;
+  margin-top:-12.5%;
+  margin-left: 5%;
+  
+}
+
+.cards2:nth-child(2){
+  margin-top: 5%;
+
+}
+
+.cards2:nth-child(3){
+  margin-left: 37%;
+  margin-top: -29.3%;
+
+}
+
+.cards2:nth-child(4){
+  margin-left: 69%;
+  margin-top: -29.3%;
+
+}
+
+.img2{
+  width:100%;
+  
+}
+
+.title2{
+  font-size: 35px;
+  font-weight: 300;
+  color:white;
+  margin-top:3.5%;
+  margin-left: 5%;
+}
+
+.text2{
+  color: white;
+  width: 80%;
+  font-size:20px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.arrow{
+  position: absolute;
+  margin-top: -13%;
+  margin-left: 85%;
+  width:40px;
+  height: 40px;
+  background-color: #4D84C4;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.hero3{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.stories-text{
+  font-weight: 300;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.card3{
+  position: absolute;
+  margin-top: 10%;
+  width:28%;
+  height:68%;
+  margin-left: 5%;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0,0.9)),url(https://s7ap1.scene7.com/is/image/TCSCOMprod/equi-card?wid=1000&hei=955&dpr=off);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.card3:nth-child(2){
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0,0.9)),url(https://s7ap1.scene7.com/is/image/TCSCOMprod/colruyt-card:Small?wid=1074&hei=1270&dpr=off);
+  background-size: cover;
+  background-position: center;
+  margin-left: 36%;
+}
+.card3:nth-child(3){
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0,0.9)),url(https://s7ap1.scene7.com/is/image/TCSCOMprod/merlin-card-upd:Small?wid=645&hei=763&dpr=off);
+  background-size: cover;
+  background-position: center;
+  margin-left: 67%;
+}
+
+.title3{
+  color: white;
+  font-size:38px;
+  margin-top: 84%;
+  margin-left: 7%;
+}
+
+.text3{
+  color:white;
+  width: 80%;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+
+.read-more{
+  color: white;
+  font-size: 18px;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+.hero4{
+  position: relative;
+  background-color: #F4F3F9;
+  width: 100%;
+  height: 100%;
+}
+
+.meet-text{
+  
+  margin-left: 5%;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.card-marathon{
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+  background-color: #fff;
+  height:77%;
+  width: 54%;
+  border-radius: 10px;
+}
+
+.flag-main{
+  width:60px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.marathon-text{
+  font-size: 35px;
+  font-weight: 300;
+  margin-left: 8.5%;
+  margin-top: -6%;
+}
+
+.date{
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 8.5%;
+  margin-top: 2%;
+}
+
+.marathon-img{
+  margin-left: 8.5%;
+  margin-top: 1%;
+  border-radius: 5px;
+  width: 650px;
+}
+
+.marathon-title{
+  font-size: 35px;
+  font-weight: 300;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  margin-left: 1%;
+  margin-top: 6.5%;
+  color: #4D84C4;
+}
+
+.texts{
+  font-size:20px;
+  font-weight: 300;
+  margin-left: 8.5%;
+  margin-top: -11%;
+  width: 600px;
+  line-height: 30px;
+}
+.read-more-2{
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 8.5%;
+  margin-top: 2%;
+}
+
+.arrow2{
+  position: absolute;
+  margin-left: 22%;
+  margin-top: -2.8%;
+}
+
+.card-marathon-extra{
+  position: relative;
+  margin-top: -44%;
+  margin-left: 60%;
+
+  height:77%;
+  width: 54%;
+  border-radius: 10px;
+}
+
+.marathon-title-extra{
+  font-size: 35px;
+  font-weight: 300;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  margin-left: 1%;
+  margin-top: 60%;
+  color: #4D84C4;
+}
+
+.flag-main-extra{
+  width:40px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 10%;
+}
+
+.ruler{
+  color: #DEE2E6;
+  line-height: 1px;
+  width: 70%;
+  margin-left: 8%;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+}
+
+.card-marathon-extra:nth-child(3){
+  margin-left: 65%;
+}
+.card-marathon-extra:nth-child(4){
+  margin-left: 70%;
+}
+.card-marathon-extra:nth-child(5){
+  margin-left: 75%;
+}
+.card-marathon-extra:nth-child(6){
+  margin-left: 80%;
+}
+.card-marathon-extra:nth-child(7){
+  margin-left: 85%;
+  margin-top: -44.2%;
+}
+
+.hero-news{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.news-text{
+  
+  font-size: 40px;
+  font-weight: 300;
+  margin-left: 8.5%;
+}
+
+.card5-main{
+  position: relative;
+  margin-left: 12.5%;
+  margin-top: 1%;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0,0.9)), url(https://www.tcs.com/content/dam/global-tcs/en/images/home/spotlight-withimage-01.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 320px;
+  height: 580px;
+}
+
+.newsroom-text{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 450px;
+  margin-left: 6%;
+  color:white;
+}
+
+.info-text{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  margin-top: 510px;
+  margin-left: 6%;
+}
+
+.card5{
+  position: relative;
+  margin-left: 12.5%;
+  margin-top: 1%;
+  border-radius: 5px;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0, 0, 0,0.6)), url(https://www.tcs.com/content/dam/global-tcs/en/images/home/spotlight-withimage-01.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 290px;
+  height: 530px;
+  margin-left: 38%;
+  margin-top: -37%;
+  
+}
+
+.title5{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 450px;
+  margin-left: 6%;
+  color:white;
+}
+.title5-1{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 420px;
+  margin-left: 6%;
+  color:white;
+}
+
+.card5:nth-child(4){
+  margin-left: 62%;
+  margin-top: -36%;
+}
+
+.hero5{
+  background-color: black;
+  height:60%;
+  width:100%;
+  color: white;
+  padding: 50px;
+  padding-left: 200px;
+}
+
+.marry{
+  margin-left: 490px;
+  margin-top: -300px;
+  border-radius: 10px;
+}
+
+.career{
+  font-size: 20px;
+  font-weight: 700;
+}
+.sieze{
+  font-size: 40px;
+  font-weight: 500;
+}
+.teams{
+  font-size: 20px;
+  font-weight: 460;
+}
+.join{
+  background-color: white;
+
+}
+.hero6{
+  background-color: rgb(35, 40, 41);
+  height:60%;
+  width:100%;
+  padding-top: 100px;
+  padding-left: 70px;
+  border: none;
+  border-bottom: 3px solid white;
+} 
+.run{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+}
+.client{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.con{
+  padding:30px;
+  border-radius: 60px;
+  height: 30px;
+  width:190px;
+  background-color: unset;
+  color:rgb(175, 173, 173);
+  font-size: 20px;
+  border:1px solid rgb(253, 252, 252);
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;
+  margin-left: 580px;
+  margin-top: 40px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  height:15%;
+  width:100%;
+}
+.tcs-logo-1{
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.foot1{
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 290px;
+  margin-top: -45px;
+}
+.foot2 {
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 270px;
+  color: white;
+  text-decoration: none;
+   margin-top: 5px;
+}
+a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+  margin-left: 20px;
+}
+.foot3{
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 290px;
+  margin-top: 8px;
+}
